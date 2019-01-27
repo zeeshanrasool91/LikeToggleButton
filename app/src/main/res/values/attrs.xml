@@ -3,5 +3,7 @@
     <declare-styleable name="LikeToggleButton">
         <attr name="like_icon" format="reference" />
         <attr name="unlike_icon" format="reference" />
+        <attr name="like_color" format="reference" />
+        <attr name="unlike_color" format="reference" />
     </declare-styleable>
 </resources>

@@ -5,9 +5,9 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(),LikeToggleButton.LikeToggleListener {
+class MainActivity : AppCompatActivity(), LikeToggleButton.LikeToggleListener {
     override fun liked(isLike: Boolean) {
-        Log.d("fav", "am i here$isLike") //To change body of created functions use File | Settings | File Templates.
+        Log.d("fav", "am i here$isLike")
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
